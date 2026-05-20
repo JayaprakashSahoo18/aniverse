@@ -3,7 +3,7 @@ plugins {
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.kapt)
     alias(libs.plugins.hilt)
-    kotlin("plugin.serialization") version "1.9.25"
+    kotlin("plugin.serialization") version "1.9.22"
 }
 
 android {
@@ -28,7 +28,7 @@ android {
     }
 
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.15"
+        kotlinCompilerExtensionVersion = "1.5.10"
     }
 
     kotlinOptions {
